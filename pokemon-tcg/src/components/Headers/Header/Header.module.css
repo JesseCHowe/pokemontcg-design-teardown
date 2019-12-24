@@ -1,0 +1,79 @@
+.Set {
+  height: 105vh;
+  position: relative;
+  font-family: Montserrat, sans-serif;
+}
+.Hero {
+  position: relative;
+}
+
+.Banner {
+  position: relative;
+  width: 100%;
+}
+
+.Hero::after {
+  content: "";
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+  height: 225px;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.SubContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.Logo {
+  display: block;
+  margin: 0 auto;
+  width: 64%;
+  max-width: 200px;
+  z-index: 2;
+}
+
+.FeatureCard {
+  position: relative;
+  margin: 1.5em auto;
+  height: 160px;
+  width: 131px;
+}
+.FeatureCard img {
+  width: 100px;
+  position: absolute;
+}
+.Front {
+  right: 0;
+  top: 0;
+}
+
+.Back {
+  left: 0;
+  bottom: 0;
+}
+
+button {
+  display: block;
+  margin: 1em auto;
+  background: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border: solid 2px #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 3em;
+}
+
+.Divider {
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #000 0%, #8c8c8c 51%, #000 100%);
+}
