@@ -1,5 +1,6 @@
 .Set {
   height: 105vh;
+  min-height: 660px;
   position: relative;
   font-family: Montserrat, sans-serif;
 }
@@ -60,7 +61,7 @@
   bottom: 0;
 }
 
-button {
+.Set button {
   display: block;
   margin: 1em auto;
   background: #000;

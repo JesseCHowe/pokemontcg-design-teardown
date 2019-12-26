@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Nav from "../../components/Nav/Nav";
 import Headers from "../../components/Headers/Headers";
 
 class Home extends Component {
@@ -21,6 +22,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <Nav />
         <Headers sets={this.state.sets} />
       </div>
     );

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="30px" viewBox="0 0 46 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>switcher-arrow/default</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="top-button" transform="translate(-8.000000, -8.000000)">
+            <g id="switcher-arrow/default" transform="translate(31.000000, 23.000000) rotate(-270.000000) translate(-31.000000, -23.000000) translate(13.941176, -6.000000)">
+                <path d="M26.0341009,9.26374149 L20.2720951,23.3056045 C18.7748929,26.9542484 18.7748929,31.0457516 20.2720951,34.6943955 L26.0341009,48.7362585 C26.4534246,49.7581398 25.9649552,50.9264673 24.9430739,51.345791 C24.1957693,51.6524436 23.3373628,51.4794488 22.7671672,50.9072802 L3.74923086,31.8235379 C2.19364142,30.2625658 2.19364142,27.7374342 3.74923086,26.1764621 L22.7671672,7.0927198 C23.5468656,6.31032342 24.8131937,6.30813633 25.5955901,7.08783479 C26.1677587,7.65803039 26.3407535,8.51643691 26.0341009,9.26374149 Z" id="white-layer-copy" fill="#F3A269"></path>
+            </g>
+        </g>
+    </g>
+</svg>
