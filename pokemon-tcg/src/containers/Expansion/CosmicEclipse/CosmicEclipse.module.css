@@ -1,0 +1,16 @@
+.CosmicEclipseBanner {
+  background: yellow;
+  display: none;
+}
+
+.CosmicEclipseBanner img {
+  position: absolute;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  z-index: 100;
+  margin: 0 auto;
+}
