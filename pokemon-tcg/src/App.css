@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.App ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.App li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.App a {
+  text-decoration: none;
+  color: black;
+}
+
+.App a:hover,
+.App a:active {
+  color: lightcoral;
+}

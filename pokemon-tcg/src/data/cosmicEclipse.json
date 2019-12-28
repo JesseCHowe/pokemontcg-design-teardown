@@ -1,0 +1,73 @@
+{
+  "cards": {
+    "pokemon": [
+      {
+        "name": "Arceus & Dialga & Palkia-GX",
+        "amount": 3,
+        "image": "SM12_156.png",
+        "symbol": ""
+      },
+      {
+        "name": "Quagsire",
+        "amount": 3,
+        "image": "SM7_5_26.png",
+        "symbol": ""
+      },
+      { "name": "Wooper", "amount": 3, "image": "SM7_5_25.png", "symbol": "" },
+      {
+        "name": "Naganadel",
+        "amount": 2,
+        "image": "SM8_108.png",
+        "symbol": ""
+      },
+      { "name": "Poipole", "amount": 3, "image": "SM11_102.png", "symbol": "" },
+      { "name": "Ditto", "amount": 1, "image": "SM8_154.png", "symbol": "" },
+      {
+        "name": "Dedenne-GX",
+        "amount": 2,
+        "image": "SM10_57.png",
+        "symbol": ""
+      },
+      {
+        "name": "Mewtwo & Mew-GX",
+        "amount": 1,
+        "image": "SM11_71.png",
+        "symbol": ""
+      },
+      {
+        "name": "Blastoise & Piplup-GX",
+        "amount": 3,
+        "image": "SM12_38.png",
+        "symbol": ""
+      },
+      { "name": "Volcanion", "amount": 1, "image": "SM6_31.png", "symbol": "" }
+    ],
+    "energy": [
+      {
+        "name": "Water Energy",
+        "amount": 9,
+        "image": "SM_TAGTEAM_Energy_3.png",
+        "symbol": ""
+      },
+      {
+        "name": "Metal Energy",
+        "amount": 4,
+        "image": "SM_TAGTEAM_Energy_8.png",
+        "symbol": ""
+      }
+    ],
+    "trainer": [
+      { "name": "Cynthia", "amount": 4, "image": "SM5_119.png" },
+      { "name": "Lillie", "amount": 4, "image": "SM5_125.png" },
+      { "name": "Erika's Hospitality", "amount": 1, "image": "SM9_140.png" },
+      { "name": "Mallow & Lana", "amount": 1, "image": "SM12_198.png" },
+      { "name": "Viridian Forest", "amount": 2, "image": "SM9_156.png" },
+      { "name": "Mysterious Treasure", "amount": 4, "image": "SM6_113.png" },
+      { "name": "Pokemon Communication", "amount": 4, "image": "SM9_152.png" },
+      { "name": "Acro Bike", "amount": 2, "image": "SM7_123.png" },
+      { "name": "Great Catcher", "amount": 2, "image": "SM12_192.png" },
+      { "name": "Switch", "amount": 2, "image": "SM7_147.png" },
+      { "name": "Reset Stamp", "amount": 1, "image": "SM11_206.png" }
+    ]
+  }
+}

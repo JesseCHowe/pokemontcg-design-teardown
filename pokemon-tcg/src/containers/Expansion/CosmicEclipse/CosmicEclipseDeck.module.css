@@ -1,0 +1,25 @@
+.Corners {
+  z-index: 100;
+}
+
+.Corners img {
+  width: 95%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.ChildContain {
+  z-index: 1;
+  top: 0;
+}
+
+.BottomCorner {
+  bottom: 0;
+  right: -60%;
+}
+
+.UpperCorner {
+  top: 0;
+  transform: rotate(180deg);
+  left: -60%;
+}

@@ -1,0 +1,87 @@
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.CardDexMini {
+  padding: 20px 0;
+  background-color: #f3a269;
+  border: 4px #ffffff solid;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  transition: box-shadow 0.2s ease-out 0.1s,
+    -webkit-box-shadow 0.2s ease-out 0.1s;
+  box-shadow: 0 0 25px 0 transparent;
+  border-radius: 100px;
+  max-width: 275px;
+  margin: 20px auto;
+}
+
+.CardDexMini p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0 0 1.7em;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.InnerOval {
+  position: relative;
+  padding: 0 45px 0 40px;
+  z-index: 1;
+}
+
+.CardDexMini img {
+  margin-right: 18px;
+  width: 84px;
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.CardDexMini::before {
+  content: "";
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  background-image: linear-gradient(
+    to right,
+    #02545c,
+    #096a74,
+    #12818d,
+    #1a99a7,
+    #23b2c1
+  );
+}
+
+.CardDexMini p::after {
+  border-right: 3px solid currentColor;
+  border-top: 3px solid currentColor;
+  display: inline-block;
+  height: 0.8em;
+  margin-left: 0.3em;
+  position: relative;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  vertical-align: baseline;
+  width: 0.8em;
+  color: #fff;
+  content: "";
+  left: 0.3em;
+  top: -0.1em;
+  -webkit-transform: scale(0.75) rotate(135deg);
+  transform: scale(0.75) rotate(135deg);
+}
